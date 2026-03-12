@@ -1,0 +1,19 @@
+# Environment files (never commit these — contain API keys)
+.env.local
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+.vercel

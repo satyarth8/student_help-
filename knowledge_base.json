@@ -1,0 +1,1284 @@
+{
+  "meta": {
+    "college_name": "Government Engineering College, Khagaria",
+    "college_name_hindi": "राजकीय अभियंत्रण महाविद्यालय खगड़िया",
+    "short_name": "GEC Khagaria",
+    "established": "2019",
+    "original_location": "Purnea, Bihar (2019-2022)",
+    "current_campus_location": "AT-Raun, Block-Alauli, Khagaria, Bihar",
+    "shifted_to_current_campus": "30th December 2022",
+    "campus_inaugurated": "28th January 2023",
+    "inaugurated_by": "Chief Minister of Bihar, Nitish Kumar",
+    "pin_code": "848203",
+    "district": "Khagaria",
+    "state": "Bihar",
+    "country": "India",
+    "affiliated_university": "Bihar Engineering University (BEU), Patna",
+    "previously_affiliated_to": "Aryabhatta Knowledge University (AKU) — from 2019 to 2022",
+    "regulatory_bodies": [
+      "AICTE",
+      "DTE Bihar"
+    ],
+    "official_website": "http://www.geckhagaria.org.in",
+    "official_email": "",
+    "helpline_phone": "",
+    "google_maps_link": "",
+    "nearest_railway_station": "Khagaria Railway Station",
+    "distance_from_khagaria_town": "",
+    "how_to_reach_from_patna": "Take NH-57 towards Muzaffarpur. At Chakia Mor, take a right turn onto SH-15 towards Katihar. Continue straight until you arrive at Khagaria town. Then follow local signage or navigation to locate AT-Raun within Block-Alauli.",
+    "motto": "तमसो मा ज्योतिर्गमय (Lead me from darkness to light)",
+    "description": "Government Engineering College Khagaria (GEC Khagaria) is a public engineering college established in 2019, located in Raun, Alauli, Khagaria, Bihar. It was originally established in Purnea and shifted to its current campus at Raun, Alauli, Khagaria in December 2022. The new campus was inaugurated by Chief Minister Nitish Kumar on 28th January 2023. The college is affiliated to Bihar Engineering University (BEU), Patna and approved by AICTE. It offers B.Tech programs across five engineering branches with a total intake of 360 seats per year. Faculty members are from IIT, NIT, and Delhi University. The college emphasizes all-round development including technical education, sports, cultural activities, and entrepreneurship.",
+    "description_hindi": "राजकीय अभियंत्रण महाविद्यालय खगड़िया (GEC खगड़िया) 2019 में स्थापित एक सरकारी इंजीनियरिंग कॉलेज है, जो बिहार इंजीनियरिंग विश्वविद्यालय से संबद्ध और AICTE द्वारा अनुमोदित है। यह रौन, आलौली, खगड़िया, बिहार में स्थित है।",
+    "vision": "To be a global leader in technology-driven education and research, fostering innovation, entrepreneurship, and societal development.",
+    "mission": [
+      "M1: To offer outstanding education in engineering, science and technology, equipping students with the knowledge, skills, and values to excel in their chosen fields and make a positive impact on society.",
+      "M2: To conduct cutting-edge research, pushing the boundaries of knowledge in various engineering and scientific disciplines, and contributing to technological advancements.",
+      "M3: To build a diverse and inclusive holistic learning environment that encourages creativity, ingenuity, and leadership skills among students, faculty, and staff.",
+      "M4: To engage in alliances and collaborations with industry, government, and academia to address real-world challenges and promote innovation and economic growth.",
+      "M5: To uphold the highest standards of ethics, integrity, and professionalism, instilling these values in our students and faculty."
+    ]
+  },
+  "administration": {
+    "principal": {
+      "name": "Dr. Mani Bhushan",
+      "designation": "Principal",
+      "email": "",
+      "phone": "",
+      "office_location": "Principal's Office, GEC Khagaria",
+      "note": "Dr. Mani Bhushan is also listed as faculty in the Civil Engineering department."
+    },
+    "registrar": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "departments": [
+      {
+        "name": "Civil Engineering",
+        "name_hindi": "सिविल इंजीनियरिंग",
+        "hod_name": "Dr. Md Irfan Ansari",
+        "hod_email": "mdirfan@geckhagaria.org.in",
+        "hod_phone": "9570810722",
+        "office_location": "",
+        "total_faculty": 12,
+        "students_enrolled": 401,
+        "intake_per_year": 120,
+        "vision": "To educate and endure in-depth knowledge to students in the field of civil engineering through research and innovation which will further inspire our community towards sustainable development and nation building.",
+        "mission": [
+          "M1: To educate with moral and ethical values along with skill development.",
+          "M2: To impart comprehensive education to the students to culture them as industry ready engineers.",
+          "M3: To provide high quality education for sustainable development of our society in the field of civil engineering."
+        ],
+        "faculty": [
+          {
+            "name": "Dr. Md Irfan Ansari",
+            "designation": "Assistant Professor (HoD)",
+            "phone": "9570810722",
+            "email": "mdirfan@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Sanjeev Kumar",
+            "designation": "Assistant Professor",
+            "phone": "8789172698",
+            "email": "sanjeev.53@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Abhishek Kumar (I)",
+            "designation": "Assistant Professor",
+            "phone": "9471620092",
+            "email": "abhi@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Abhishek Kumar (II)",
+            "designation": "Assistant Professor",
+            "phone": "8280040487",
+            "email": ""
+          },
+          {
+            "name": "Mr. Sumit Suman",
+            "designation": "Assistant Professor",
+            "phone": "7765802875",
+            "email": "suman.sumit@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Aviral Kumar",
+            "designation": "Assistant Professor",
+            "phone": "9883098462",
+            "email": "profaviral@geckhagaria.org.in"
+          },
+          {
+            "name": "Dr. Mani Bhushan",
+            "designation": "Principal / Faculty",
+            "phone": "",
+            "email": ""
+          },
+          {
+            "name": "Mr. Vishal Kumar Chaudhary",
+            "designation": "Assistant Professor",
+            "phone": "9004659642",
+            "email": "vishal@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Aditya Kumar",
+            "designation": "Assistant Professor",
+            "phone": "7992338073",
+            "email": "pfaditya@geckhagaria.org.in"
+          },
+          {
+            "name": "Dr. Mritunjay",
+            "designation": "Assistant Professor",
+            "phone": "",
+            "email": ""
+          },
+          {
+            "name": "Dr. Md Azhar",
+            "designation": "Assistant Professor",
+            "phone": "",
+            "email": ""
+          },
+          {
+            "name": "Dr. Ashutosh Kumar",
+            "designation": "Assistant Professor",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      {
+        "name": "Mechanical Engineering",
+        "name_hindi": "मैकेनिकल इंजीनियरिंग",
+        "hod_name": "Mr. Jyoti Kumar",
+        "hod_email": "jyoti.roy160@geckhagaria.org.in",
+        "hod_phone": "8109675160",
+        "office_location": "",
+        "total_faculty": 6,
+        "students_enrolled": 46,
+        "intake_per_year": 60,
+        "vision": "To produce excellent engineering professionals who are committed to social ethics, work for national as well as global institutions, and prioritize their higher education.",
+        "mission": [
+          "M1: To establish an innovative teaching-learning culture with an attention on novel approaches and resources for mechanical engineers.",
+          "M2: To work together with industrial sector and academic establishments to boost student skills and knowledge.",
+          "M3: To provide the professional training necessary for resolving the industrial and technical issues.",
+          "M4: To nurture a sense of ethics and morality for humanity through a broad spectrum of cultural and social engagements."
+        ],
+        "faculty": [
+          {
+            "name": "Mr. Jyoti Kumar",
+            "designation": "Assistant Professor (HoD)",
+            "phone": "8109675160",
+            "email": "jyoti.roy160@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Vishwajeet Kumar",
+            "designation": "Assistant Professor",
+            "phone": "7903799033",
+            "email": "vishwajeet@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Md Adil Ahsan",
+            "designation": "Assistant Professor",
+            "phone": "6204298824",
+            "email": "adilmech36@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Rishav Kumar Gupta",
+            "designation": "Assistant Professor",
+            "phone": "9504912604",
+            "email": "rishavkg@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Prabhakar Kumar",
+            "designation": "Assistant Professor",
+            "phone": "7004190076",
+            "email": "prabha1505@geckhagaria.org.in"
+          },
+          {
+            "name": "Mr. Love Kumar",
+            "designation": "Assistant Professor",
+            "phone": "7835904608",
+            "email": "kmrlv@geckhagaria.org.in"
+          }
+        ]
+      },
+      {
+        "name": "Electrical Engineering",
+        "name_hindi": "इलेक्ट्रिकल इंजीनियरिंग",
+        "hod_name": "Dr. Nayan Kumar",
+        "hod_email": "kumar@geckhagaria.org.in",
+        "hod_phone": "9474861889",
+        "office_location": "",
+        "total_faculty": 7,
+        "students_enrolled": 147,
+        "intake_per_year": 60,
+        "vision": "To engage in evolving technical knowledge and innovation in electrical engineering, foster a conducive learning environment, and empower proficient professionals to serve society and the nation.",
+        "mission": [
+          "M1: To provide excellence in education, conduct impactful research, and contribute to societal needs through technological advancements in Electrical Engineering.",
+          "M2: To engage in collaborative initiatives that foster sustained partnerships with academic institutions and industries, providing enduring opportunities for interaction and mutual benefit.",
+          "M3: To develop and empower individuals to reach their intellectual and creative potential, fostering emerging technocratic leaders across diverse professions."
+        ],
+        "faculty": [
+          {
+            "name": "Dr. Nayan Kumar",
+            "designation": "Assistant Professor (HoD)",
+            "phone": "9474861889",
+            "email": "kumar@geckhagaria.org.in"
+          },
+          {
+            "name": "Prof. Chandan Kumar",
+            "designation": "Assistant Professor",
+            "phone": "6005478989",
+            "email": "chandan.786baba@gmail.com"
+          },
+          {
+            "name": "Prof. Bijay Kumar Singh",
+            "designation": "Assistant Professor",
+            "phone": "7004852453",
+            "email": "bijayee59@gmail.com"
+          },
+          {
+            "name": "Prof. Ram Kumar",
+            "designation": "Assistant Professor",
+            "phone": "9108642983",
+            "email": "ramahk92@gmail.com"
+          },
+          {
+            "name": "Prof. Rajani Kumari",
+            "designation": "Assistant Professor",
+            "phone": "8789857731",
+            "email": "rajani.kumari202@gmail.com"
+          },
+          {
+            "name": "Prof. Kuber Kumar",
+            "designation": "Assistant Professor",
+            "phone": "8319932734",
+            "email": "kumarkuber043@gmail.com"
+          },
+          {
+            "name": "Prof. Baibhav Bishal",
+            "designation": "Assistant Professor",
+            "phone": "9529807101",
+            "email": "baibhav.geck23@gmail.com"
+          },
+          {
+            "name": "Prof. Amit Kumar Singh",
+            "designation": "Assistant Professor",
+            "phone": "8764375350",
+            "email": "amitkumarsingh02010@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "Computer Science & Engineering (IoT)",
+        "name_hindi": "कंप्यूटर साइंस एंड इंजीनियरिंग (IoT)",
+        "hod_name": "Ms. Priyanka Sinha",
+        "hod_email": "abhapriyanka0007@gmail.com",
+        "hod_phone": "8340166270",
+        "office_location": "",
+        "intake_per_year": 60
+      },
+      {
+        "name": "Computer Science & Engineering (AI & ML)",
+        "name_hindi": "कंप्यूटर साइंस एंड इंजीनियरिंग (AI & ML)",
+        "hod_name": "Mr. Abhishek Kumar",
+        "hod_email": "abhishekresid@gmail.com",
+        "hod_phone": "7624921992",
+        "office_location": "",
+        "intake_per_year": 60
+      },
+      {
+        "name": "Computer Science & Engineering (Combined Department)",
+        "note": "CSE-IoT and CSE-AI&ML share the same department pool of 7 faculty and 130 enrolled students with 120 combined intake per year.",
+        "total_faculty": 8,
+        "students_enrolled": 130,
+        "intake_per_year": 120,
+        "vision": "To engage computer science professionals in technical education and research that support social development, entrepreneurship, and innovation.",
+        "mission": [
+          "M1: To impart technical knowledge in the field of computer science to accelerate the students skills that leads to favorable effects on society.",
+          "M2: To establish a technical platform and environment that helps students and faculties to carry out research and innovation in engineering and scientific disciplines.",
+          "M3: To facilitate students to solve real world challenges professionally by engaging them with industry, government and academia while maintaining integrity and ethics."
+        ],
+        "faculty": [
+          {
+            "name": "Mr. Vivek Sharan",
+            "designation": "Assistant Professor",
+            "phone": "6200252794",
+            "email": "ersharanvivek@gmail.com"
+          },
+          {
+            "name": "Mr. Nishant Kumar",
+            "designation": "Assistant Professor",
+            "phone": "7003817626",
+            "email": "kumarprashant556@gmail.com"
+          },
+          {
+            "name": "Ms. Priyanka Sinha",
+            "designation": "Assistant Professor (HoD, CSE IoT)",
+            "phone": "8340166270",
+            "email": "abhapriyanka0007@gmail.com"
+          },
+          {
+            "name": "Mr. Dhruv Kumar",
+            "designation": "Assistant Professor",
+            "phone": "8010134429",
+            "email": "dhruvonly007@gmail.com"
+          },
+          {
+            "name": "Ms. Shivangi Shekhar",
+            "designation": "Assistant Professor",
+            "phone": "7324090768",
+            "email": "sshekhar.life121@gmail.com"
+          },
+          {
+            "name": "Mrs. Priti Kumari",
+            "designation": "Assistant Professor",
+            "phone": "9873918829",
+            "email": ""
+          },
+          {
+            "name": "Mr. Abhishek Kumar",
+            "designation": "Assistant Professor (HoD, CSE AI&ML)",
+            "phone": "7624921992",
+            "email": "abhishekresid@gmail.com"
+          },
+          {
+            "name": "Mr. Nityanand Kumar",
+            "designation": "Assistant Professor",
+            "phone": "7870341623",
+            "email": "nityanand32@gmail.com"
+          }
+        ]
+      },
+      {
+        "name": "Applied Science & Humanities",
+        "name_hindi": "एप्लाइड साइंस एवं मानविकी",
+        "hod_name": "Dr. Satya Prakash Kumar",
+        "hod_email": "spkumariitb@gmail.com",
+        "hod_phone": "8169585442",
+        "office_location": "",
+        "total_faculty": 6,
+        "vision": "The Department of Humanities envisions to facilitate GEC Khagaria as one of the leading institutions of Bihar which produces meritorious students well versed in English language without ignoring their own language and prove their mettle in the field of technology.",
+        "mission": "To grant the budding minds of engineering aspirants a tool of expression and make students confident in English language by training them in the major skills of the language: LSRW (Listening, Speaking, Reading and Writing), and to help them strengthen the inborn skills with proper training in soft skills.",
+        "faculty": [
+          {
+            "name": "Dr. Amit Kumar Singh",
+            "designation": "Assistant Professor",
+            "phone": "9717280355",
+            "email": "amit@geckhagaria.org.in"
+          },
+          {
+            "name": "Dr. Satya Prakash Kumar",
+            "designation": "Assistant Professor (HoD)",
+            "phone": "8169585442",
+            "email": "spkumariitb@gmail.com"
+          },
+          {
+            "name": "Mr. Rajesh Kumar Ranjan",
+            "designation": "Assistant Professor",
+            "phone": "8292236080",
+            "email": "rajeshranjan39@geckhagaria.org.in"
+          },
+          {
+            "name": "Dr. NM Thakur",
+            "designation": "Guest Assistant Professor",
+            "phone": "7368918341",
+            "email": ""
+          },
+          {
+            "name": "Dr. Md Sanam Suraj",
+            "designation": "Assistant Professor",
+            "phone": "9968987584",
+            "email": "mdsanamsuraj@gmail.com"
+          },
+          {
+            "name": "Mr. Rajaram Kumar",
+            "designation": "Guest Lab Assistant / Technical Assistant",
+            "phone": "7277786664",
+            "email": "raj9534795752@gmail.com"
+          }
+        ]
+      }
+    ]
+  },
+  "programs": [
+    {
+      "degree": "B.Tech",
+      "branch": "Civil Engineering",
+      "duration": "4 years",
+      "total_seats": 120,
+      "fee_structure": {
+        "general_bc_ebc": {
+          "year1_total": 111860,
+          "year2_total": 83630,
+          "year3_total": 83630,
+          "year4_total": 83630,
+          "breakdown_year1": {
+            "admission_fee_and_other_charges": 3360,
+            "registration_fee": 2100,
+            "university_exam_fees": 7400,
+            "lodging_and_fooding": 48000,
+            "books_and_stationery": 10000,
+            "laptop": 36000,
+            "nptel_swayam_online_courses": 5000
+          }
+        },
+        "sc_st": {
+          "year1_total": 100740,
+          "year2_total": 77510,
+          "year3_total": 77510,
+          "year4_total": 77510
+        },
+        "note": "Lodging and fooding (Rs. 48,000/year) and Laptop (Rs. 36,000, only in Year 1) are as per student application. NPTEL/Swayam/Online courses charge is Rs. 5,000 for General/BC/EBC in Year 1 and Rs. 15,000 from Year 2 onwards; Free for SC/ST in Year 1."
+      },
+      "admission_process": "JEE Main (conducted by NTA) + UGEAC counselling via bceceboard.bihar.gov.in",
+      "description": "B.Tech in Civil Engineering is the flagship program with the highest intake of 120 seats per year. The program covers structural engineering, geotechnical engineering, fluid mechanics, transportation, environmental engineering, and more."
+    },
+    {
+      "degree": "B.Tech",
+      "branch": "Mechanical Engineering",
+      "duration": "4 years",
+      "total_seats": 60,
+      "fee_structure": {
+        "note": "Same fee structure as Civil Engineering. Refer to fee_structure in Civil Engineering entry."
+      },
+      "admission_process": "JEE Main (conducted by NTA) + UGEAC counselling via bceceboard.bihar.gov.in",
+      "description": "B.Tech in Mechanical Engineering covers thermodynamics, fluid mechanics, automobile engineering, manufacturing, and design. Students get hands-on experience in the Workshop, Fluid Lab, Heat Transfer Lab, and Automobile Lab."
+    },
+    {
+      "degree": "B.Tech",
+      "branch": "Electrical Engineering",
+      "duration": "4 years",
+      "total_seats": 60,
+      "fee_structure": {
+        "note": "Same fee structure as Civil Engineering. Refer to fee_structure in Civil Engineering entry."
+      },
+      "admission_process": "JEE Main (conducted by NTA) + UGEAC counselling via bceceboard.bihar.gov.in",
+      "description": "B.Tech in Electrical Engineering covers power systems, machines, electronics, and control systems. Students work in the Basic Electrical Engineering Lab and the ANSYS simulation lab."
+    },
+    {
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering (IoT)",
+      "duration": "4 years",
+      "total_seats": 60,
+      "fee_structure": {
+        "note": "Same fee structure as Civil Engineering. Refer to fee_structure in Civil Engineering entry."
+      },
+      "admission_process": "JEE Main (conducted by NTA) + UGEAC counselling via bceceboard.bihar.gov.in",
+      "description": "B.Tech CSE with specialization in Internet of Things (IoT). This program was introduced in 2022 when the college affiliated with BEU. Students learn IoT systems, embedded programming, networking, and smart device development. Introduced in 2022."
+    },
+    {
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering (AI & ML)",
+      "duration": "4 years",
+      "total_seats": 60,
+      "fee_structure": {
+        "note": "Same fee structure as Civil Engineering. Refer to fee_structure in Civil Engineering entry."
+      },
+      "admission_process": "JEE Main (conducted by NTA) + UGEAC counselling via bceceboard.bihar.gov.in",
+      "description": "B.Tech CSE with specialization in Artificial Intelligence & Machine Learning. Introduced in 2023. Students explore machine learning, deep learning, NLP, computer vision, and predictive analytics in the AI Workshop lab."
+    }
+  ],
+  "total_intake_per_year": 360,
+  "admission": {
+    "regular_entry": {
+      "title": "Regular Entry — 1st Year B.Tech",
+      "process_steps": [
+        "Step 1: Appear in JEE Main conducted by NTA.",
+        "Step 2: Register for UGEAC on bceceboard.bihar.gov.in.",
+        "Step 3: Fill choices and select GEC Khagaria as your preferred option.",
+        "Step 4: Participate in counselling and document verification.",
+        "Step 5: Pay the fees and confirm admission."
+      ],
+      "portal": "https://bceceboard.bihar.gov.in/",
+      "eligibility": "10+2 with Physics, Chemistry, Mathematics. Minimum 45% marks (40% for reserved categories)."
+    },
+    "lateral_entry": {
+      "title": "Lateral Entry — 2nd Year B.Tech",
+      "process_steps": [
+        "Step 1: Apply for BCECE (Lateral Entry) at bceceboard.bihar.gov.in.",
+        "Step 2: Choose GEC Khagaria during choice filling in counselling.",
+        "Step 3: Complete document verification and fee payment."
+      ],
+      "eligibility": "Diploma / B.Sc. / D.Voc. holders in relevant field."
+    },
+    "documents_required": [
+      "JEE Main / Lateral Entry Rank Card",
+      "10th Mark Sheet & Certificate",
+      "12th Mark Sheet & Certificate (for Regular Entry) OR Diploma/B.Sc./D.Voc. Mark Sheets (for Lateral Entry)",
+      "Caste, Domicile & Income Certificate (if applicable)",
+      "UGEAC / L.E. Allotment Letter",
+      "Migration & Character Certificate",
+      "Passport-size Photographs (as per application form)",
+      "Government-issued ID Proof (Aadhaar Card, etc.)",
+      "Any other documents as specified in the counselling/admission notice"
+    ],
+    "process_hindi": "बी.टेक कार्यक्रम में प्रवेश JEE Main और BCECE के माध्यम से होता है। BCECEB पोर्टल (bceceboard.bihar.gov.in) पर UGEAC के लिए ऑनलाइन आवेदन करें और काउंसलिंग में भाग लें।",
+    "contact_for_admission": "Visit the official website http://www.geckhagaria.org.in or BCECEB portal for updates."
+  },
+  "labs": [
+    {
+      "name": "Transportation Engineering Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block, GEC Khagaria",
+      "description": "Optimize transportation systems for safety and efficiency. Students study pavement materials, traffic engineering, and highway design.",
+      "key_equipment": [
+        "Marshall Stability Testing Machine",
+        "Los Angeles Abrasion Machine",
+        "Aggregate Impact Value Tester"
+      ]
+    },
+    {
+      "name": "Material Testing and Evaluation Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block, GEC Khagaria",
+      "description": "Test and evaluate materials for engineering design and innovation. Students perform tests on concrete, steel, bricks, and other construction materials.",
+      "key_equipment": [
+        "Universal Testing Machine (UTM)",
+        "Compression Testing Machine",
+        "Hardness Testing Equipment"
+      ]
+    },
+    {
+      "name": "Geotechnical Engineering Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block, GEC Khagaria",
+      "description": "Explore soil mechanics and structural stability. Students study soil properties, bearing capacity, and foundation design.",
+      "key_equipment": [
+        "Direct Shear Apparatus",
+        "Triaxial Testing Machine",
+        "Consolidation Test Apparatus",
+        "Standard Proctor Compaction Apparatus"
+      ]
+    },
+    {
+      "name": "Fluid Mechanics Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block, GEC Khagaria",
+      "description": "Provides students with a practical understanding of the behaviour of fluids and their applications in engineering systems.",
+      "key_equipment": [
+        "Flow Channel",
+        "Venturimeter",
+        "Orifice Meter",
+        "Bernoulli's Theorem Apparatus"
+      ]
+    },
+    {
+      "name": "Environmental Engineering Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block, GEC Khagaria",
+      "description": "Students study water quality analysis, sewage treatment, and environmental impact assessment.",
+      "key_equipment": [
+        "BOD Incubator",
+        "Turbidity Meter",
+        "pH Meter",
+        "Spectrophotometer"
+      ]
+    },
+    {
+      "name": "Surveying & Geomatics Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block, GEC Khagaria",
+      "description": "Students learn land surveying, levelling, and geomatics using traditional and modern instruments.",
+      "key_equipment": [
+        "Total Station",
+        "Theodolite",
+        "Auto Level",
+        "Dumpy Level",
+        "Chain and Tape"
+      ]
+    },
+    {
+      "name": "CAD Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block / Computer Lab, GEC Khagaria",
+      "description": "Students learn to create and interpret technical drawings using CAD software for engineering design.",
+      "key_equipment": [
+        "Computer Systems",
+        "AutoCAD Software",
+        "Drafting Boards"
+      ]
+    },
+    {
+      "name": "Hydraulic Engineering Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block, GEC Khagaria",
+      "description": "Students study open channel flow, pipe flow, and hydraulic structures.",
+      "key_equipment": [
+        "Hydraulic Bench",
+        "Notch Apparatus",
+        "Pipe Flow Setup"
+      ]
+    },
+    {
+      "name": "Geology Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block, GEC Khagaria",
+      "description": "Students study rock and mineral identification, geological mapping, and structural geology relevant to civil engineering.",
+      "key_equipment": [
+        "Rock and Mineral Specimens",
+        "Geological Maps",
+        "Microscopes"
+      ]
+    },
+    {
+      "name": "Hydrology & Water Resource Engineering Lab",
+      "department": "Civil Engineering",
+      "location": "Civil Engineering Block, GEC Khagaria",
+      "description": "Students study rainfall-runoff relationships, flood routing, and water resource management.",
+      "key_equipment": [
+        "Rain Gauge",
+        "Stream Flow Measurement Equipment"
+      ]
+    },
+    {
+      "name": "Workshop",
+      "department": "Mechanical Engineering",
+      "location": "Mechanical Engineering Block, GEC Khagaria",
+      "description": "A fully equipped workshop where students get hands-on learning experience in machining, welding, carpentry, and fitting. Experimentation meets innovation in every project.",
+      "key_equipment": [
+        "Lathe Machine",
+        "Drilling Machine",
+        "Milling Machine",
+        "Welding Equipment",
+        "Bench Vice",
+        "Grinding Machine"
+      ]
+    },
+    {
+      "name": "Fluid Lab (Mechanical)",
+      "department": "Mechanical Engineering",
+      "location": "Mechanical Engineering Block, GEC Khagaria",
+      "description": "Explore fluid dynamics with Pelton, Francis, and Kaplan turbines, alongside versatile reciprocating pumps, experiencing hydraulic power and innovation firsthand.",
+      "key_equipment": [
+        "Pelton Turbine",
+        "Francis Turbine",
+        "Kaplan Turbine",
+        "Reciprocating Pump",
+        "Centrifugal Pump"
+      ]
+    },
+    {
+      "name": "Automobile Lab",
+      "department": "Mechanical Engineering",
+      "location": "Mechanical Engineering Block, GEC Khagaria",
+      "description": "Students explore automotive engineering with hands-on exploration of cutting-edge technologies and design principles.",
+      "key_equipment": [
+        "Engine Cutaway Models",
+        "Transmission Systems",
+        "Automotive Components",
+        "Fuel Injection Systems"
+      ]
+    },
+    {
+      "name": "Heat Transfer Lab",
+      "department": "Mechanical Engineering",
+      "location": "Mechanical Engineering Block, GEC Khagaria",
+      "description": "Students explore the principles of heat transfer through practical experimentation and analysis of thermodynamic systems.",
+      "key_equipment": [
+        "Heat Transfer Through Composite Wall Apparatus",
+        "Stefan Boltzmann Apparatus",
+        "Pin Fin Apparatus",
+        "Heat Exchanger Setup"
+      ]
+    },
+    {
+      "name": "Basic Electrical Engineering Lab",
+      "department": "Electrical Engineering",
+      "location": "Electrical Engineering Block, GEC Khagaria",
+      "description": "Offers hands-on experience with fundamental circuits, transformers, and motors using modern equipment. Students develop practical skills in circuitry analysis, measurement techniques, and safety protocols.",
+      "key_equipment": [
+        "CRO (Cathode Ray Oscilloscope)",
+        "Function Generator",
+        "Single Phase Transformer",
+        "Three Phase Motor",
+        "DC Machine",
+        "Multimeter",
+        "Power Factor Meter"
+      ]
+    },
+    {
+      "name": "ANSYS Lab",
+      "department": "Electrical Engineering",
+      "location": "Electrical Engineering Block / Computer Lab, GEC Khagaria",
+      "description": "A cutting-edge simulation facility equipped with industry-standard ANSYS software, enabling students to model and analyze complex engineering systems in structural mechanics, thermal dynamics, fluid flow, and electromagnetics.",
+      "key_equipment": [
+        "High-end Computer Workstations",
+        "ANSYS Software Suite"
+      ]
+    },
+    {
+      "name": "Computer Lab",
+      "department": "Computer Science & Engineering",
+      "location": "CSE Block / Main Building, GEC Khagaria",
+      "description": "A modern computer lab designed to cultivate digital literacy and problem-solving skills. Students work on programming, software development, networking, and database management.",
+      "key_equipment": [
+        "Desktop Computers",
+        "High-speed Internet",
+        "Networking Equipment",
+        "Programming IDEs",
+        "Linux and Windows OS"
+      ]
+    },
+    {
+      "name": "AI Workshop (AI & ML Lab)",
+      "department": "Computer Science & Engineering (AI & ML)",
+      "location": "CSE Block, GEC Khagaria",
+      "description": "A state-of-the-art facility designed to immerse students in the rapidly evolving world of AI. Equipped with high-end computing resources and development kits. Students explore machine learning, deep learning, NLP, computer vision, and predictive analytics.",
+      "key_equipment": [
+        "High-end Computer Systems",
+        "AI Development Kits",
+        "Robotics Kits (Industry 4.0)",
+        "AI Helmet Detection Demo Kit",
+        "Raspberry Pi / Arduino Kits",
+        "GPU-enabled Workstations"
+      ]
+    },
+    {
+      "name": "Engineering Drawing Lab",
+      "department": "Applied Science & Humanities / Common",
+      "location": "Main Academic Block, GEC Khagaria",
+      "description": "Students learn to create and interpret technical drawings using tools like drafting boards and CAD software for understanding engineering design.",
+      "key_equipment": [
+        "Drafting Boards",
+        "Drawing Instruments Set",
+        "Mini Drafter",
+        "CAD Software"
+      ]
+    },
+    {
+      "name": "Language Lab",
+      "department": "Applied Science & Humanities",
+      "location": "Applied Science Block, GEC Khagaria",
+      "description": "An innovative language lab with interactive technology and exercises that empower language acquisition and fluency in English. Focuses on LSRW skills — Listening, Speaking, Reading, and Writing.",
+      "key_equipment": [
+        "Computers with Headsets",
+        "Interactive Display / Smart Board",
+        "Language Learning Software"
+      ]
+    },
+    {
+      "name": "Chemistry Lab",
+      "department": "Applied Science & Humanities",
+      "location": "Applied Science Block, GEC Khagaria",
+      "description": "A well-equipped facility for hands-on exploration and experimentation in the fundamental and applied aspects of chemistry.",
+      "key_equipment": [
+        "Titration Setup",
+        "Distillation Apparatus",
+        "Heating Mantles",
+        "Glassware",
+        "Chemical Reagents",
+        "pH Meter"
+      ]
+    },
+    {
+      "name": "Physics Lab",
+      "department": "Applied Science & Humanities",
+      "location": "Applied Science Block, GEC Khagaria",
+      "description": "Provides students with hands-on experience to deepen their understanding of fundamental and advanced physics concepts through a variety of experiments and modern equipment.",
+      "key_equipment": [
+        "Optical Bench",
+        "Spectrometer",
+        "Resonance Tube",
+        "Galvanometer",
+        "Wheatstone Bridge Setup",
+        "Vernier Caliper"
+      ]
+    }
+  ],
+  "facilities": {
+    "library": {
+      "name": "Central Library",
+      "location": "Main Academic Building, GEC Khagaria",
+      "timings": "Monday to Saturday, 10:00 AM to 5:00 PM (17:00)",
+      "total_books": 11987,
+      "area_sqft": "4000+",
+      "features": [
+        "Quiet zones with comfortable furniture and ambient lighting for focused study",
+        "Computer stations with internet access and academic software",
+        "Regularly updated book collection",
+        "Engineering textbooks, reference books, and journals"
+      ],
+      "digital_resources": [
+        "NPTEL",
+        "Swayam",
+        "Online journals",
+        "Internet access workstations"
+      ],
+      "librarian_name": "Supported by Prof. Aviral Kumar and Prof. Abhishek Kumar",
+      "description": "The Central Library has a collection of 11,987 books spread over 4000+ sq. ft. It provides quiet study zones, computer stations, and regularly updated collections catering to diverse academic interests."
+    },
+    "computer_center": {
+      "location": "Main Academic Building / CSE Block, GEC Khagaria",
+      "description": "The college has multiple well-equipped computer labs with modern desktop systems, high-speed internet, and necessary software for students across all departments.",
+      "software_available": [
+        "AutoCAD",
+        "ANSYS",
+        "Programming IDEs (Visual Studio, Eclipse, etc.)",
+        "Linux OS",
+        "Windows OS",
+        "MATLAB (expected)",
+        "Tally"
+      ]
+    },
+    "auditorium": {
+      "name": "College Auditorium",
+      "location": "Main Campus, GEC Khagaria",
+      "capacity": "Visible in gallery photos — large auditorium seating hundreds of students",
+      "description": "The college has a large auditorium used for events, guest lectures, freshers parties, farewells, annual fests, and official ceremonies. It is well-lit with stage lighting and a sound system.",
+      "booking_contact": ""
+    },
+    "wifi": {
+      "available": true,
+      "coverage": "Campus-wide including hostels",
+      "description": "WiFi connectivity is available throughout the campus including in the hostels.",
+      "how_to_connect": "Contact the college IT section or warden for access credentials."
+    },
+    "startup_cell": {
+      "available": true,
+      "launched": "2023",
+      "description": "A Startup Cell was launched in 2023 to support student entrepreneurs and help students develop business ideas and startups."
+    },
+    "guest_house": {
+      "available": true,
+      "capacity": "",
+      "booking_contact": "",
+      "location": "Campus, GEC Khagaria"
+    }
+  },
+  "hostel": {
+    "boys_hostel": {
+      "total_capacity": 300,
+      "room_types": [
+        "Single",
+        "Triple"
+      ],
+      "amenities": [
+        "WiFi connectivity",
+        "RO Water Purifier",
+        "Geyser (hot water)",
+        "Laundry facilities",
+        "Storage units",
+        "Beds and study desks",
+        "Indoor games recreational space",
+        "Quality mess / dining",
+        "Electrical fittings"
+      ],
+      "warden_name": "",
+      "warden_contact": "",
+      "fees_per_semester": "",
+      "anti_ragging": true,
+      "anti_ragging_note": "The hostel is strictly ragging-free, promoting a safe and nurturing environment.",
+      "location_on_campus": "Boys Hostel Block, GEC Khagaria Campus",
+      "description": "The Boys Hostel accommodates 300 students in a mix of single and triple bedded rooms. It provides essential amenities like WiFi, RO water purifiers, geysers, laundry, and indoor games. It is a ragging-free zone."
+    },
+    "girls_hostel": {
+      "total_capacity": 200,
+      "room_types": [
+        "Single",
+        "Triple"
+      ],
+      "amenities": [
+        "WiFi connectivity",
+        "RO Water Purifier",
+        "Geyser (hot water)",
+        "Laundry facilities",
+        "Storage units",
+        "Beds and study desks",
+        "Indoor games recreational space",
+        "Quality mess / dining"
+      ],
+      "warden_name": "",
+      "warden_contact": "",
+      "fees_per_semester": "",
+      "anti_ragging": true,
+      "location_on_campus": "Girls Hostel Block, GEC Khagaria Campus",
+      "description": "The Girls Hostel accommodates 200 students in a comfortable and secure environment with similar amenities as the boys hostel. It is strictly ragging-free.",
+      "note": "The brochure states Girls Hostel capacity as 200 (not 150 as originally assumed)."
+    },
+    "mess": {
+      "available": true,
+      "description": "Quality mess / dining facility is available for hostel residents. Meal timings not specified in brochure.",
+      "mess_timings": {
+        "breakfast": "",
+        "lunch": "",
+        "dinner": ""
+      }
+    }
+  },
+  "sports": {
+    "description": "GEC Khagaria has a vibrant sports culture offering a wide range of tournaments and activities. The college has state-of-the-art sports facilities.",
+    "outdoor_facilities": [
+      {
+        "sport": "Cricket",
+        "facility": "Cricket Ground",
+        "note": "Also hosts the intra-college College Cricket Cup (CCC)"
+      },
+      {
+        "sport": "Volleyball",
+        "facility": "Volleyball Court"
+      },
+      {
+        "sport": "Badminton",
+        "facility": "Badminton Court (appears to be an outdoor court based on gallery photo)"
+      },
+      {
+        "sport": "Kabaddi",
+        "facility": "Ground"
+      },
+      {
+        "sport": "Athletics",
+        "facility": "Athletics Track / Arena"
+      },
+      {
+        "sport": "Javelin Throw",
+        "facility": "Athletics Arena"
+      },
+      {
+        "sport": "Boxing",
+        "facility": "Boxing Arena",
+        "achievement": "A student represented the college at national level in boxing."
+      }
+    ],
+    "indoor_facilities": [
+      {
+        "sport": "Table Tennis",
+        "facility": "Table Tennis Area"
+      },
+      {
+        "sport": "Chess",
+        "facility": "Indoor Games Room",
+        "achievement": "A student represented the college at state level in chess."
+      },
+      {
+        "sport": "Carrom",
+        "facility": "Indoor Games Room"
+      }
+    ],
+    "tournaments": {
+      "intra_college": [
+        {
+          "name": "Spardha",
+          "description": "GEC Khagaria's flagship inter-college sports event. Attracts teams from colleges across the region. A celebration of sportsmanship and talent.",
+          "type": "Inter-college sports tournament"
+        },
+        {
+          "name": "College Cricket Cup (CCC)",
+          "description": "A fusion of culture and sports where students showcase their skills. Fosters a spirit of healthy competition.",
+          "type": "Cricket tournament"
+        }
+      ],
+      "inter_college": "Students participate in tournaments organized by other colleges in sports like cricket, kabaddi, chess, boxing, badminton, and more.",
+      "state_level": "Students participate in UMANG — the State Level Sports Fest organized by Government of Bihar, Department of Science, Technology and Technical Education."
+    },
+    "sports_officer": {
+      "name": "",
+      "contact": ""
+    }
+  },
+  "transport": {
+    "description": "The college is located in Raun, Alauli, Khagaria. From Patna, take NH-57 towards Muzaffarpur, turn at Chakia Mor onto SH-15 towards Katihar, continue to Khagaria town, then navigate to AT-Raun, Block-Alauli.",
+    "nearest_railway_station": "Khagaria Railway Station",
+    "railway_station_distance": "",
+    "rickshaw_auto_available": true,
+    "college_bus_available": false,
+    "bus_routes": [],
+    "how_to_reach": {
+      "from_patna": [
+        "Take NH-57 towards Muzaffarpur.",
+        "At Chakia Mor, take a right turn onto SH-15 towards Katihar.",
+        "Continue straight until you arrive at Khagaria town.",
+        "Follow local signage or navigation to locate AT-Raun within Block-Alauli."
+      ]
+    }
+  },
+  "canteen": {
+    "location": "Campus, GEC Khagaria",
+    "timings": "",
+    "description": "Canteen / food facilities are available on campus. Hostel mess provides meals for resident students.",
+    "menu_items_available": [],
+    "approximate_budget_per_meal": ""
+  },
+  "placement": {
+    "tpc_name": "Training & Placement Cell",
+    "placement_officer": {
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "placement_statistics": {
+      "average_package_lpa": 2.70,
+      "median_package_lpa": 2.64,
+      "mode_package_lpa": 4.25,
+      "highest_package_lpa": 6,
+      "package_distribution": [
+        {
+          "range": "1.8 - 2.15 LPA",
+          "percentage": "25%"
+        },
+        {
+          "range": "2.16 - 3.9 LPA",
+          "percentage": "32.7%"
+        },
+        {
+          "range": "4 - 5.5 LPA",
+          "percentage": "38.5%"
+        },
+        {
+          "range": "6 LPA",
+          "percentage": "3.8%"
+        }
+      ],
+      "gender_distribution": {
+        "male": "90.4%",
+        "female": "9.6%"
+      },
+      "note": "These are early placement stats — the college had its first batch pass out in 2023."
+    },
+    "training_and_placement_partners": [
+      "HCL Technologies",
+      "RINEX",
+      "Quality Austria Central Asia",
+      "Sadguru Facility Services Pvt. Ltd.",
+      "HikeEdu",
+      "EdiGlobe",
+      "Hi-Technext Engineering and Telecom Pvt. Ltd.",
+      "Eco Space Infrastructures",
+      "BYJU'S (The Learning App)"
+    ],
+    "placement_highlights": [
+      "Early campus visits from companies despite the college being in its initial phase.",
+      "Core companies engaging with the college affirm the quality of programs.",
+      "Focused placement training initiatives equip students with essential skills.",
+      "Certified Skill Development Training Programs conducted (e.g., AI Training Program with EduVillae)."
+    ],
+    "description": "The Training & Placement Cell at GEC Khagaria assists students with career guidance, skill development, placement training, and job placement opportunities. The cell has established partnerships with companies like HCL Technologies, EdiGlobe, HikeEdu, and more.",
+    "description_hindi": "प्रशिक्षण एवं प्लेसमेंट सेल छात्रों को करियर मार्गदर्शन, कौशल विकास और नौकरी के अवसर प्रदान करता है।"
+  },
+  "events_and_culture": {
+    "annual_college_fest": {
+      "name": "Fusion Utsav",
+      "latest_edition": "Fusion Utsav '25 (2025)",
+      "presented_by": "NEXUS and PANKH clubs",
+      "description": "The annual cultural festival of GEC Khagaria featuring music, dance, drama, competitions, and celebrity performances. A grand celebration of creativity, colours, lights, and talent.",
+      "activities": [
+        "Music and singing performances",
+        "Dance performances (classical and contemporary)",
+        "Drama and skit competitions",
+        "DJ Night",
+        "Celebrity artist performances",
+        "Photography and art exhibitions"
+      ]
+    },
+    "sports_events": {
+      "spardha": "Inter-college sports tournament — flagship sports event",
+      "college_cricket_cup": "CCC — intra-college cricket tournament",
+      "umang": "Participation in state-level sports fest organized by Government of Bihar"
+    },
+    "regular_events": [
+      "Independence Day (15th August)",
+      "Republic Day (26th January)",
+      "Engineers Day",
+      "Freshers Party (for new students)",
+      "Farewell (for graduating students)",
+      "Pulwama Attack Black Day (14th February) — tribute event",
+      "Tree Plantation Drives",
+      "Technical workshops and seminars",
+      "Certified Skill Development Training Programs"
+    ],
+    "clubs": [
+      {
+        "name": "NEXUS",
+        "type": "Technical/Cultural",
+        "description": "One of the main student clubs at GEC Khagaria involved in organizing Fusion Utsav and other events.",
+        "contact": ""
+      },
+      {
+        "name": "PANKH",
+        "type": "Cultural",
+        "description": "Student club involved in co-presenting Fusion Utsav '25. Promotes cultural activities and student expression.",
+        "contact": ""
+      }
+    ],
+    "milestones": [
+      {
+        "year": "2019",
+        "event": "Established in Purnea, Bihar. Obtained affiliation from AICTE."
+      },
+      {
+        "year": "2019-2022",
+        "event": "Affiliated with AKU (Aryabhatta Knowledge University), offering CE (120), EE (60), ME (60) seats."
+      },
+      {
+        "year": "2022",
+        "event": "Affiliated with BEU (Bihar Engineering University). Introduced CSE (IoT) with 60 seats."
+      },
+      {
+        "year": "30th Dec 2022",
+        "event": "Shifted from Purnea to Raun, Alauli, Khagaria."
+      },
+      {
+        "year": "28th Jan 2023",
+        "event": "New campus inaugurated by CM of Bihar, Nitish Kumar."
+      },
+      {
+        "year": "2023",
+        "event": "First batch successfully passed out."
+      },
+      {
+        "year": "2023",
+        "event": "Introduced CSE (AI & ML) with 60 seats."
+      },
+      {
+        "year": "2023",
+        "event": "Startup Cell launched to support student entrepreneurs."
+      }
+    ]
+  },
+  "student_services": {
+    "scholarship": {
+      "schemes": [
+        "Bihar State Government Scholarship",
+        "SC/ST/OBC Post-Matric Scholarship",
+        "Central Sector Scholarship",
+        "EBC (Extremely Backward Class) Scholarship",
+        "Post-Matric Scholarship"
+      ],
+      "portal": "https://scholarships.gov.in/",
+      "note": "Scholarship and loan facilities are available for all students as mentioned by the Principal.",
+      "contact_for_info": "Contact the college office or scholarship section."
+    },
+    "education_loan": {
+      "available": true,
+      "description": "Education loan facilities are available to help students finance their studies. Contact your bank or the college for guidance."
+    },
+    "academic_resources": {
+      "nptel_access": true,
+      "swayam_access": true,
+      "online_courses": true,
+      "description": "Students have access to NPTEL/Swayam online courses. The fee structure includes provision for NPTEL/Swayam/Online Courses/Internship/Project work/Branch-Specific Software Learning."
+    },
+    "bonafide_certificate": {
+      "how_to_apply": "Submit application to the college office / exam section.",
+      "processing_time": "",
+      "fee": ""
+    },
+    "fee_payment": {
+      "portal": "https://bceceboard.bihar.gov.in/ (for initial admission); college office for subsequent payments",
+      "modes_accepted": [
+        "Online",
+        "Bank Challan"
+      ],
+      "description": "Fee payment can be done online or through bank challan as specified during admission and counselling."
+    },
+    "anti_ragging": {
+      "helpline": "1800-180-5522",
+      "policy": "GEC Khagaria has a strict zero-tolerance policy against ragging. The hostels are declared ragging-free zones.",
+      "committee_chair": {
+        "name": "",
+        "phone": ""
+      }
+    }
+  },
+  "important_contacts": {
+    "anti_ragging_helpline": "1800-180-5522",
+    "bceceb_portal": "https://bceceboard.bihar.gov.in/",
+    "official_website": "http://www.geckhagaria.org.in",
+    "scholarship_portal": "https://scholarships.gov.in/",
+    "beu_website": "https://beu.ac.in/",
+    "aicte_website": "https://www.aicte-india.org/",
+    "anti_ragging_committee_chair": {
+      "name": "",
+      "phone": ""
+    },
+    "grievance_cell": {
+      "contact": "",
+      "email": ""
+    },
+    "nss_officer": {
+      "name": "",
+      "phone": ""
+    },
+    "ncc_officer": {
+      "name": "",
+      "phone": ""
+    },
+    "exam_section": {
+      "phone": "",
+      "email": ""
+    }
+  },
+  "faq": [
+    {
+      "question": "How do I get admission to GEC Khagaria?",
+      "question_hindi": "GEC खगड़िया में दाखिला कैसे मिलता है?",
+      "answer": "Admission to 1st year B.Tech is through JEE Main (conducted by NTA) followed by UGEAC counselling on bceceboard.bihar.gov.in. Lateral entry to 2nd year is through BCECE (Lateral Entry) at the same portal. Choose GEC Khagaria during counselling, complete document verification, and pay fees.",
+      "answer_hindi": "दाखिला JEE Main के बाद UGEAC काउंसलिंग (bceceboard.bihar.gov.in) के माध्यम से होता है। लेटरल एंट्री के लिए BCECE (LE) पोर्टल पर आवेदन करें।"
+    },
+    {
+      "question": "Is hostel facility available?",
+      "question_hindi": "क्या हॉस्टल की सुविधा है?",
+      "answer": "Yes, both boys hostel (capacity 300) and girls hostel (capacity 200) are available on campus. Both provide WiFi, RO water, geysers, laundry, indoor games, and quality mess. Both are strictly ragging-free.",
+      "answer_hindi": "हाँ, बॉयज हॉस्टल (300 क्षमता) और गर्ल्स हॉस्टल (200 क्षमता) उपलब्ध हैं। दोनों में WiFi, RO पानी, गीजर और मेस की सुविधा है।"
+    },
+    {
+      "question": "What branches are available at GEC Khagaria?",
+      "question_hindi": "GEC खगड़िया में कौन-कौन से ब्रांच हैं?",
+      "answer": "Five B.Tech branches: Civil Engineering (120 seats), Mechanical Engineering (60 seats), Electrical Engineering (60 seats), CSE-IoT (60 seats), and CSE-AI&ML (60 seats). Total intake is 360 per year.",
+      "answer_hindi": "पाँच ब्रांच: सिविल इंजीनियरिंग (120 सीट), मैकेनिकल (60), इलेक्ट्रिकल (60), CSE-IoT (60), और CSE-AI&ML (60)। कुल 360 सीट प्रति वर्ष।"
+    },
+    {
+      "question": "What is the fee at GEC Khagaria?",
+      "question_hindi": "GEC खगड़िया की फीस कितनी है?",
+      "answer": "For General/BC/EBC students: Year 1 total estimated expenditure is approximately Rs. 1,11,860 (includes admission fee, university exam fee, lodging/fooding, books, laptop, and NPTEL/online course charges). From Year 2 onwards it is approximately Rs. 83,630 per year. For SC/ST students: Year 1 is approximately Rs. 1,00,740 and from Year 2 it is approximately Rs. 77,510. Note that lodging/fooding (Rs. 48,000) and laptop (Rs. 36,000 in Year 1 only) are as per student application.",
+      "answer_hindi": "सामान्य/BC/EBC छात्रों के लिए पहले वर्ष लगभग ₹1,11,860 और SC/ST के लिए ₹1,00,740 (लैपटॉप और आवास सहित)।"
+    },
+    {
+      "question": "What sports facilities are available?",
+      "question_hindi": "खेल सुविधाएं क्या हैं?",
+      "answer": "The campus has cricket ground, volleyball court, badminton court, athletics track, javelin throw arena, boxing arena, and indoor games including table tennis, chess, and carrom. The college organizes Spardha (inter-college sports) and CCC (College Cricket Cup).",
+      "answer_hindi": "क्रिकेट ग्राउंड, वॉलीबॉल कोर्ट, बैडमिंटन कोर्ट, एथलेटिक्स, बॉक्सिंग अरेना और इनडोर खेल (टेबल टेनिस, शतरंज, कैरम) उपलब्ध हैं।"
+    },
+    {
+      "question": "Is WiFi available on campus?",
+      "question_hindi": "क्या कैंपस पर WiFi है?",
+      "answer": "Yes, WiFi connectivity is available campus-wide including in the hostels.",
+      "answer_hindi": "हाँ, पूरे कैंपस में (हॉस्टल सहित) WiFi उपलब्ध है।"
+    },
+    {
+      "question": "What is the placement situation at GEC Khagaria?",
+      "question_hindi": "GEC खगड़िया में प्लेसमेंट कैसी है?",
+      "answer": "GEC Khagaria had its first batch pass out in 2023. The average package is 2.70 LPA, median is 2.64 LPA, and highest package offered is 6 LPA. Companies like HCL Technologies, EdiGlobe, HikeEdu, Eco Space Infrastructures, and BYJU'S have engaged with the college.",
+      "answer_hindi": "औसत पैकेज 2.70 LPA, मीडियन 2.64 LPA और उच्चतम 6 LPA है। HCL Technologies, BYJU'S जैसी कंपनियाँ प्लेसमेंट के लिए आती हैं।"
+    },
+    {
+      "question": "Who is the Principal of GEC Khagaria?",
+      "question_hindi": "GEC खगड़िया के प्रिंसिपल कौन हैं?",
+      "answer": "The Principal of GEC Khagaria is Dr. Mani Bhushan.",
+      "answer_hindi": "GEC खगड़िया के प्रिंसिपल डॉ. मनी भूषण हैं।"
+    },
+    {
+      "question": "When was GEC Khagaria established and when did it shift to Khagaria?",
+      "answer": "GEC Khagaria was established in 2019 in Purnea, Bihar. It shifted to its current campus at Raun, Alauli, Khagaria on 30th December 2022. The new campus was inaugurated by Chief Minister Nitish Kumar on 28th January 2023.",
+      "answer_hindi": "GEC खगड़िया की स्थापना 2019 में पूर्णिया में हुई थी। 30 दिसंबर 2022 को यह खगड़िया के रौन, आलौली में स्थानांतरित हुआ और 28 जनवरी 2023 को CM नीतीश कुमार ने इसका उद्घाटन किया।"
+    },
+    {
+      "question": "Is there a library? How many books does it have?",
+      "question_hindi": "क्या लाइब्रेरी है? इसमें कितनी किताबें हैं?",
+      "answer": "Yes, the Central Library has 11,987 books spread over 4,000+ sq. ft. It is open Monday to Saturday from 10:00 AM to 5:00 PM. It also has computer stations with internet access.",
+      "answer_hindi": "हाँ, केंद्रीय पुस्तकालय में 11,987 किताबें हैं और यह 4,000+ वर्ग फुट में फैला है। यह सोमवार से शनिवार 10:00 AM से 5:00 PM तक खुला रहता है।"
+    },
+    {
+      "question": "Are scholarships available for students?",
+      "question_hindi": "क्या छात्रों के लिए छात्रवृत्ति उपलब्ध है?",
+      "answer": "Yes, scholarship and loan facilities are available. Students can avail Bihar State Government Scholarships, SC/ST/OBC Post-Matric Scholarships, Central Sector Scholarship, and others via scholarships.gov.in.",
+      "answer_hindi": "हाँ, बिहार सरकार की छात्रवृत्ति, SC/ST/OBC पोस्ट मैट्रिक स्कॉलरशिप और केंद्रीय सेक्टर स्कॉलरशिप (scholarships.gov.in) उपलब्ध हैं।"
+    },
+    {
+      "question": "What is the annual cultural fest called?",
+      "answer": "The annual cultural fest is called Fusion Utsav (फ्यूजन उत्सव). The latest edition was Fusion Utsav '25, presented by student clubs NEXUS and PANKH."
+    },
+    {
+      "question": "Does GEC Khagaria have a Startup Cell?",
+      "answer": "Yes, a Startup Cell was launched in 2023 to support student entrepreneurs and help them develop and pitch their business ideas."
+    }
+  ]
+}
