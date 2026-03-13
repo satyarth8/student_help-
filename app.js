@@ -1,13 +1,13 @@
 /**
  * GEC Khagaria College Voice Assistant — app.js
- * Uses @google/genai SDK directly via Vite
+ * Uses Sarvam AI (sarvam-m) via fetch — free tier, OpenAI-compatible API
  */
 
-import { GoogleGenAI } from '@google/genai';
 import knowledgeBase from './knowledge_base.json';
 
 // ── CONFIG ──────────────────────────────────────────────────────
-const MODEL = 'gemini-3-flash-preview'; // Switched to 3.0 preview to fix 429 limits
+const MODEL = 'sarvam-105b-32k'; // Free Sarvam AI model
+const SARVAM_API_URL = 'https://api.sarvam.ai/v1/chat/completions';
 const MAX_HISTORY = 20;
 const SILENCE_TIMEOUT = 2000;
 const SPEECH_RATE = 1.0;
@@ -15,60 +15,60 @@ const SPEECH_RATE = 1.0;
 // ── TOPIC PRESETS ────────────────────────────────────────────────
 const TOPIC_QUESTIONS = {
   en: {
-    campus:    'Give me an overview of the GEC Khagaria campus, its history, and facilities.',
-    labs:      'What laboratories are available at GEC Khagaria and what equipment do they have?',
-    hostel:    'Tell me about the hostel facilities at GEC Khagaria — capacity, amenities and rules.',
+    campus: 'Give me an overview of the GEC Khagaria campus, its history, and facilities.',
+    labs: 'What laboratories are available at GEC Khagaria and what equipment do they have?',
+    hostel: 'Tell me about the hostel facilities at GEC Khagaria — capacity, amenities and rules.',
     admission: 'How do I get admission to GEC Khagaria? What is the process and documents needed?',
-    sports:    'What sports and recreation facilities are available at GEC Khagaria?',
-    contacts:  'Who are the faculty and HODs at GEC Khagaria with their contact details?',
+    sports: 'What sports and recreation facilities are available at GEC Khagaria?',
+    contacts: 'Who are the faculty and HODs at GEC Khagaria with their contact details?',
   },
   hi: {
-    campus:    'GEC खगड़िया का कैंपस और उसकी सुविधाओं के बारे में बताइए।',
-    labs:      'GEC खगड़िया में कौन-कौन सी प्रयोगशालाएँ हैं और उनमें क्या उपकरण हैं?',
-    hostel:    'GEC खगड़िया में हॉस्टल की सुविधाएँ, क्षमता और नियम क्या हैं?',
+    campus: 'GEC खगड़िया का कैंपस और उसकी सुविधाओं के बारे में बताइए।',
+    labs: 'GEC खगड़िया में कौन-कौन सी प्रयोगशालाएँ हैं और उनमें क्या उपकरण हैं?',
+    hostel: 'GEC खगड़िया में हॉस्टल की सुविधाएँ, क्षमता और नियम क्या हैं?',
     admission: 'GEC खगड़िया में दाखिला कैसे मिलता है? प्रक्रिया और जरूरी दस्तावेज बताइए।',
-    sports:    'GEC खगड़िया में खेल और मनोरंजन की क्या सुविधाएँ हैं?',
-    contacts:  'GEC खगड़िया के फैकल्टी और HODs की जानकारी और संपर्क नंबर बताइए।',
+    sports: 'GEC खगड़िया में खेल और मनोरंजन की क्या सुविधाएँ हैं?',
+    contacts: 'GEC खगड़िया के फैकल्टी और HODs की जानकारी और संपर्क नंबर बताइए।',
   },
 };
 
 // ── UI LABELS ────────────────────────────────────────────────────
 const LABELS = {
   en: {
-    statusIdle:      'Tap to Speak',
-    statusHint:      'Ask anything about GEC Khagaria',
+    statusIdle: 'Tap to Speak',
+    statusHint: 'Ask anything about GEC Khagaria',
     statusListening: 'Listening...',
-    statusHintListen:'Speak now — I\'m listening',
-    statusThinking:  'Thinking...',
+    statusHintListen: 'Speak now — I\'m listening',
+    statusThinking: 'Thinking...',
     statusHintThink: 'Gemini AI is processing your question',
-    statusSpeaking:  'Speaking...',
+    statusSpeaking: 'Speaking...',
     statusHintSpeak: 'Tap orb or type to interrupt',
-    topicsLabel:     'Quick Questions',
-    chatHeader:      'Conversation',
+    topicsLabel: 'Quick Questions',
+    chatHeader: 'Conversation',
     textPlaceholder: 'Type your question here...',
-    errorNoSpeech:   'No speech detected. Please try again.',
-    errorApi:        'Could not reach the AI. Check your connection.',
-    errorMicDenied:  'Microphone access denied. Please use text input below.',
-    stopBtn:         '⏹ Stop Speaking',
-    rateLimit:       'Too many requests — please wait 30 seconds and try again.',
+    errorNoSpeech: 'No speech detected. Please try again.',
+    errorApi: 'Could not reach the AI. Check your connection.',
+    errorMicDenied: 'Microphone access denied. Please use text input below.',
+    stopBtn: '⏹ Stop Speaking',
+    rateLimit: 'Too many requests — please wait 30 seconds and try again.',
   },
   hi: {
-    statusIdle:      'बोलने के लिए टैप करें',
-    statusHint:      'GEC खगड़िया के बारे में कुछ भी पूछें',
+    statusIdle: 'बोलने के लिए टैप करें',
+    statusHint: 'GEC खगड़िया के बारे में कुछ भी पूछें',
     statusListening: 'सुन रहा हूँ...',
-    statusHintListen:'अभी बोलें — मैं सुन रहा हूँ',
-    statusThinking:  'सोच रहा हूँ...',
+    statusHintListen: 'अभी बोलें — मैं सुन रहा हूँ',
+    statusThinking: 'सोच रहा हूँ...',
     statusHintThink: 'AI आपके सवाल पर काम कर रहा है',
-    statusSpeaking:  'बोल रहा हूँ...',
+    statusSpeaking: 'बोल रहा हूँ...',
     statusHintSpeak: 'रोकने के लिए टैप करें',
-    topicsLabel:     'जल्दी सवाल पूछें',
-    chatHeader:      'बातचीत',
+    topicsLabel: 'जल्दी सवाल पूछें',
+    chatHeader: 'बातचीत',
     textPlaceholder: 'यहाँ अपना सवाल लिखें...',
-    errorNoSpeech:   'कोई आवाज़ नहीं मिली। कृपया फिर से प्रयास करें।',
-    errorApi:        'AI से संपर्क नहीं हो पाया। कनेक्शन जाँचें।',
-    errorMicDenied:  'माइक्रोफ़ोन अनुमति नहीं मिली। नीचे टेक्स्ट बॉक्स से पूछें।',
-    stopBtn:         '⏹ बोलना रोकें',
-    rateLimit:       'बहुत अधिक अनुरोध — कृपया 30 सेकंड बाद फिर से प्रयास करें।',
+    errorNoSpeech: 'कोई आवाज़ नहीं मिली। कृपया फिर से प्रयास करें।',
+    errorApi: 'AI से संपर्क नहीं हो पाया। कनेक्शन जाँचें।',
+    errorMicDenied: 'माइक्रोफ़ोन अनुमति नहीं मिली। नीचे टेक्स्ट बॉक्स से पूछें।',
+    stopBtn: '⏹ बोलना रोकें',
+    rateLimit: 'बहुत अधिक अनुरोध — कृपया 30 सेकंड बाद फिर से प्रयास करें।',
   },
 };
 
@@ -79,7 +79,7 @@ function buildSystemPrompt() {
 
 YOUR ROLE:
 - Help students, visitors, parents, and prospective students learn everything about this college
-- Ensure responses are Clear, Concise, Courteous, and Correct.
+- most important and must be followed Ensure responses are Clear, very very Concise (only answers what is needed), Courteous, and Correct.
 - Be warm and conversational — like a knowledgeable senior student giving a campus tour.
 - Respond in the EXACT SAME LANGUAGE the user writes in (Hindi/English).
 - Keep voice answers brief (2-3 sentences max).
@@ -104,16 +104,16 @@ KEY FACTS TO ALWAYS REMEMBER:
 - Official website: geckhagaria.org.in`;
 }
 
-// ── GEMINI CHAT ──────────────────────────────────────────────────
-const GeminiChat = {
-  ai: null,
+// ── SARVAM CHAT ──────────────────────────────────────────────────
+const SarvamChat = {
+  apiKey: null,
   history: [],
   systemPrompt: '',
 
   init() {
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-    if (!apiKey) throw new Error('VITE_GEMINI_API_KEY not set in .env file');
-    this.ai = new GoogleGenAI({ apiKey });
+    const apiKey = import.meta.env.VITE_SARVAM_API_KEY;
+    if (!apiKey || apiKey === 'sk_your_key_here') throw new Error('VITE_SARVAM_API_KEY not set in .env file');
+    this.apiKey = apiKey;
     this.systemPrompt = buildSystemPrompt();
     this.history = [];
   },
@@ -122,22 +122,46 @@ const GeminiChat = {
     this.history.push({ role: 'user', content: userMessage });
     const recent = this.history.slice(-MAX_HISTORY);
 
-    const contents = recent.map(m => ({
-      role: m.role === 'assistant' ? 'model' : 'user',
-      parts: [{ text: m.content }],
-    }));
+    // Build OpenAI-compatible messages array with system prompt prepended
+    const messages = [
+      { role: 'system', content: this.systemPrompt },
+      ...recent.map(m => ({ role: m.role === 'assistant' ? 'assistant' : 'user', content: m.content })),
+    ];
 
-    const response = await this.ai.models.generateContent({
-      model: MODEL,
-      config: {
-        systemInstruction: this.systemPrompt,
-        temperature: 0.7,
-        maxOutputTokens: 1024,
+    const response = await fetch(SARVAM_API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${this.apiKey}`,
       },
-      contents,
+      body: JSON.stringify({
+        model: MODEL,
+        messages,
+        temperature: 0.7,
+        max_tokens: 2048,
+      }),
     });
 
-    const text = response.text;
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}));
+      const msg = err?.error?.message || response.statusText;
+      const error = new Error(msg);
+      error.status = response.status;
+      throw error;
+    }
+
+    const data = await response.json();
+    let text = data.choices?.[0]?.message?.content || '';
+
+    // sarvam-m / sarvam-30b are thinking models — strip the <think>…</think> block.
+    // The actual answer appears after the closing </think> tag.
+    if (text.includes('</think>')) {
+      text = text.split('</think>').slice(1).join('').trim();
+    } else if (text.startsWith('<think>')) {
+      // Thinking block was cut off — return a fallback message
+      text = "I'm sorry, I couldn't generate a complete response. Please try again.";
+    }
+
     this.history.push({ role: 'assistant', content: text });
     return text;
   },
@@ -281,28 +305,28 @@ const UI = {
 
   init() {
     this.els = {
-      orb:             document.getElementById('orbContainer'),
-      orbIcon:         document.getElementById('orbIcon'),
-      statusLabel:     document.getElementById('statusLabel'),
-      statusHint:      document.getElementById('statusHint'),
-      stopBtn:         document.getElementById('stopBtn'),
-      chatContainer:   document.getElementById('chatContainer'),
-      chatHeader:      document.querySelector('.chat-header'),
-      chatMessages:    document.getElementById('chatMessages'),
+      orb: document.getElementById('orbContainer'),
+      orbIcon: document.getElementById('orbIcon'),
+      statusLabel: document.getElementById('statusLabel'),
+      statusHint: document.getElementById('statusHint'),
+      stopBtn: document.getElementById('stopBtn'),
+      chatContainer: document.getElementById('chatContainer'),
+      chatHeader: document.querySelector('.chat-header'),
+      chatMessages: document.getElementById('chatMessages'),
       chatHeaderTitle: document.getElementById('chatHeaderTitle'),
-      messagesInner:   document.getElementById('messagesInner'),
-      emptyChat:       document.getElementById('emptyChat'),
+      messagesInner: document.getElementById('messagesInner'),
+      emptyChat: document.getElementById('emptyChat'),
       typingIndicator: document.getElementById('typingIndicator'),
-      textInput:       document.getElementById('textInput'),
-      sendBtn:         document.getElementById('sendBtn'),
-      errorBanner:     document.getElementById('errorBanner'),
-      errorText:       document.getElementById('errorText'),
-      micPrompt:       document.getElementById('micPrompt'),
-      infoModal:       document.getElementById('infoModal'),
-      toast:           document.getElementById('toast'),
-      langEn:          document.getElementById('langEn'),
-      langHi:          document.getElementById('langHi'),
-      topicsLabel:     document.getElementById('topicsLabel'),
+      textInput: document.getElementById('textInput'),
+      sendBtn: document.getElementById('sendBtn'),
+      errorBanner: document.getElementById('errorBanner'),
+      errorText: document.getElementById('errorText'),
+      micPrompt: document.getElementById('micPrompt'),
+      infoModal: document.getElementById('infoModal'),
+      toast: document.getElementById('toast'),
+      langEn: document.getElementById('langEn'),
+      langHi: document.getElementById('langHi'),
+      topicsLabel: document.getElementById('topicsLabel'),
     };
   },
 
@@ -335,10 +359,10 @@ const UI = {
   updateStateLabels() {
     const L = LABELS[this.lang];
     const map = {
-      idle:      [L.statusIdle,      L.statusHint],
+      idle: [L.statusIdle, L.statusHint],
       listening: [L.statusListening, L.statusHintListen],
-      thinking:  [L.statusThinking,  L.statusHintThink],
-      speaking:  [L.statusSpeaking,  L.statusHintSpeak],
+      thinking: [L.statusThinking, L.statusHintThink],
+      speaking: [L.statusSpeaking, L.statusHintSpeak],
     };
     const [label, hint] = map[this.state] || [L.statusIdle, L.statusHint];
     this.els.statusLabel.textContent = label;
@@ -421,14 +445,14 @@ const app = {
     // Load voices
     if (VoiceOutput.isSupported) {
       window.speechSynthesis.getVoices();
-      window.speechSynthesis.onvoiceschanged = () => {};
+      window.speechSynthesis.onvoiceschanged = () => { };
     }
 
-    // Init Gemini
+    // Init Sarvam AI
     try {
-      GeminiChat.init();
+      SarvamChat.init();
     } catch (e) {
-      UI.showError('API key missing. Add VITE_GEMINI_API_KEY to .env and restart npm run dev.');
+      UI.showError('API key missing. Add VITE_SARVAM_API_KEY=sk_xxx to .env and restart npm run dev.');
       console.error(e);
     }
 
@@ -497,7 +521,7 @@ const app = {
     UI.showTyping();
 
     try {
-      const response = await GeminiChat.send(userText);
+      const response = await SarvamChat.send(userText);
       UI.hideTyping();
       UI.addMessage('assistant', response);
       if (VoiceOutput.isSupported) { UI.setState('speaking'); VoiceOutput.speak(response, this.lang); }

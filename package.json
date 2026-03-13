@@ -7,9 +7,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@google/genai": "^0.8.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "vite": "^6.2.0"
   }
