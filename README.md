@@ -1,5 +1,5 @@
 # GEC Khagaria — College Voice Assistant
-
+https://excalidraw.com/#json=FMs9KYcev53T7ZtJXe5lj,YrZdWKYiavf0Jfwi0oKPCQ
 An AI-powered voice guide for **Government Engineering College, Khagaria, Bihar**. Built with Vite, vanilla JS, HTML/CSS, the **Gemini 3.0 Flash Preview** model, and the Web Speech API. 
 
 The assistant provides concise, high-quality answers regarding college facilities, admission processes, faculty, sports, and hostels based on a meticulously filled `knowledge_base.json`.
